@@ -5,16 +5,16 @@
     "keywords": [
         "technology blog"
     ],
-    "homepage": "http://JSLite.io",
+    "homepage": "http://wjx19931104.github.io/",
     "author": "wjx19931104 <1093660262@qq.com>",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/wjx19931104/wjx19931104.github.io"
     },
     "licenses": "MIT",
     "scripts": {
         "build": "idoc build && idoc server",
-        "deploy": "git add -A && git commit -m'update' && git push -u origin master"
+        "deploy": "git add -A && git commit -m update && git push -u origin master"
     },
     "idoc": {
         "theme": "default",
