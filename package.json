@@ -1,0 +1,25 @@
+{
+    "name": "Lucifer",
+    "version": "0.0.1",
+    "description": "王佳祥的技术博客",
+    "keywords": [
+        "technology blog"
+    ],
+    "homepage": "http://JSLite.io",
+    "author": "wjx19931104 <1093660262@qq.com>",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "licenses": "MIT",
+    "scripts": {
+        "build": "idoc build && idoc server",
+        "deploy": ""
+    },
+    "idoc": {
+        "theme": "default",
+        "md": [
+            "index.md"
+        ]
+    }
+}
